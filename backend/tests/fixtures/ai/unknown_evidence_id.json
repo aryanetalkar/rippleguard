@@ -1,0 +1,16 @@
+{
+  "summary": "Package lodash explanation citing a hallucinated metric.",
+  "why_priority": "Assigned high priority due to structural metrics.",
+  "key_factors": [
+    "High downstream reach"
+  ],
+  "mitigation_guidance": "Review upstream advisory.",
+  "limitations": [
+    "Organizational review advised."
+  ],
+  "evidence_ids": [
+    "risk_score",
+    "priority_rank",
+    "hallucinated_threat_actor_attribution_score"
+  ]
+}

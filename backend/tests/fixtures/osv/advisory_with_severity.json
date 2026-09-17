@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.6.0",
+  "id": "GHSA-test-5678",
+  "modified": "2024-04-05T12:00:00Z",
+  "published": "2024-03-25T09:00:00Z",
+  "aliases": [
+    "CVE-2024-88888"
+  ],
+  "summary": "Remote Code Execution via deserialization",
+  "details": "Unsanitized input allows arbitrary code execution on host.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "package-b",
+        "purl": "pkg:npm/package-b"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://example.com/advisories/GHSA-test-5678"
+    }
+  ]
+}

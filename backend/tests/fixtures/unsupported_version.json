@@ -1,0 +1,11 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.1",
+  "version": 1,
+  "components": [
+    {
+      "name": "legacy-lib",
+      "version": "0.1.0"
+    }
+  ]
+}

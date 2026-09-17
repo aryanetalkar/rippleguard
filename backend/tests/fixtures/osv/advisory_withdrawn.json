@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.6.0",
+  "id": "GHSA-withdrawn-9999",
+  "modified": "2024-05-02T10:00:00Z",
+  "published": "2024-04-10T11:00:00Z",
+  "withdrawn": "2024-05-01T12:00:00Z",
+  "aliases": [],
+  "summary": "Withdrawn: False positive report in package-c",
+  "details": "This advisory was withdrawn after maintainer verification proved the behavior is intended.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "package-c",
+        "purl": "pkg:npm/package-c"
+      }
+    }
+  ]
+}

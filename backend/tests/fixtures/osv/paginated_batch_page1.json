@@ -1,0 +1,13 @@
+{
+  "results": [
+    {
+      "vulns": [
+        {
+          "id": "GHSA-page1-item1",
+          "modified": "2024-01-01T00:00:00Z"
+        }
+      ],
+      "next_page_token": "token_page_2"
+    }
+  ]
+}

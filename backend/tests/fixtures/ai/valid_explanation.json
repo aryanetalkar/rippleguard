@@ -1,0 +1,22 @@
+{
+  "summary": "Package lodash is ranked first because its moderate-severity vulnerability combines with substantial structural reach and critical downstream applications.",
+  "why_priority": "The package reaches 40 downstream applications and has high structural centrality. Although its CVSS score is lower than another finding, the RippleGuard model assigns it a higher combined score.",
+  "key_factors": [
+    "High downstream application reach",
+    "High structural centrality",
+    "Critical affected applications"
+  ],
+  "mitigation_guidance": "Review the fixed-version information supplied by the OSV advisory and prioritize remediation of this dependency.",
+  "limitations": [
+    "RippleGuard score is a proposed configurable decision model and should be reviewed alongside organizational security context."
+  ],
+  "evidence_ids": [
+    "risk_score",
+    "priority_rank",
+    "priority_band",
+    "cvss_score",
+    "centrality_score",
+    "affected_application_count",
+    "application_criticality"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "Package lodash vulnerability with an unsupported version claim.",
+  "why_priority": "High structural reach in downstream services.",
+  "key_factors": [
+    "High downstream reach"
+  ],
+  "mitigation_guidance": "Fixed in version 99.99.99 which completely eliminates the vulnerability.",
+  "limitations": [
+    "Model assumptions apply."
+  ],
+  "evidence_ids": [
+    "risk_score",
+    "priority_rank"
+  ]
+}

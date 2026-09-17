@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.6.0",
+  "id": "GHSA-test-1234",
+  "modified": "2024-04-01T10:00:00Z",
+  "published": "2024-03-20T08:00:00Z",
+  "aliases": [
+    "CVE-2024-99999"
+  ],
+  "summary": "Denial of Service in test-package",
+  "details": "A crafted payload causes excessive CPU utilization leading to Denial of Service.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "package-a",
+        "purl": "pkg:npm/package-a"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-test-1234"
+    }
+  ]
+}

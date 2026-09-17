@@ -1,0 +1,39 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "app-dup",
+      "type": "application",
+      "name": "dup-app",
+      "version": "2.0.0"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "comp-1",
+      "type": "library",
+      "name": "shared-lib",
+      "version": "1.2.0",
+      "purl": "pkg:npm/shared-lib@1.2.0"
+    },
+    {
+      "bom-ref": "comp-2",
+      "type": "library",
+      "name": "shared-lib",
+      "version": "1.2.0",
+      "purl": "pkg:npm/shared-lib@1.2.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "app-dup",
+      "dependsOn": [
+        "comp-1",
+        "comp-1",
+        "comp-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "app-cycle",
+      "type": "application",
+      "name": "cyclic-app",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg-x",
+      "type": "library",
+      "name": "package-x",
+      "version": "1.0.0",
+      "purl": "pkg:npm/package-x@1.0.0"
+    },
+    {
+      "bom-ref": "pkg-y",
+      "type": "library",
+      "name": "package-y",
+      "version": "1.0.0",
+      "purl": "pkg:npm/package-y@1.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "app-cycle",
+      "dependsOn": [
+        "pkg-x"
+      ]
+    },
+    {
+      "ref": "pkg-x",
+      "dependsOn": [
+        "pkg-y"
+      ]
+    },
+    {
+      "ref": "pkg-y",
+      "dependsOn": [
+        "pkg-x"
+      ]
+    }
+  ]
+}
