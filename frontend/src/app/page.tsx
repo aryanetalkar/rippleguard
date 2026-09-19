@@ -33,7 +33,7 @@ import {
 } from "lucide-react";
 import RippleGraph, { RippleNodeData, RipplePathData } from "../components/RippleGraph";
 
-const API_BASE = "http://localhost:8000/api/v1";
+const API_BASE = "https://rippleguard-9uwt.onrender.com/api/v1";
 
 interface IngestionResult {
   ingestion_id: number;
